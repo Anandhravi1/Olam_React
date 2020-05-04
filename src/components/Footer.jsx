@@ -33,7 +33,7 @@ class Footer extends React.Component {
                         )}                 
                     </div>
                     <div className="mt-3">
-                        <span>&copy; 2020 Olam vsb Nuts (Part of the Olam Group)</span>
+                        <span>&copy; 2020 Olam engineering Nuts (Part of the Olam Group)</span>
                     </div>
                 </div>
                 <div className="question-sec">
