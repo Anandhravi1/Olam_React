@@ -1,0 +1,141 @@
+
+    {
+        "banner" : [ 
+            {
+                "link":" ",
+                "image":"banner_1"
+            },
+            {
+                "link":" ",
+                "image": "banner_2"
+            },{
+                "link":" ",
+                "image": "banner_3"
+            },{
+                "link":" ",
+                "image": "banner_4"
+            }
+        ],
+
+        "footerLink" :[
+            {
+                "link":" ",
+                "text":"Locate Us"
+            },
+            {
+                "link": "https://www.olammarkets.com.au/almonds/faq-new/",
+                "text": "FAQ"
+            },
+            {
+                "link": "https://www.olammarkets.com.au/almonds/technical-document/",
+                "text": "Technical Documents"
+            },
+            {
+                "link": "https://www.olammarkets.com.au/almonds/publications/",
+                "text":"Publications"
+            }
+        ],
+        "header" :[
+            {
+              "link":" ",
+              "icons": "icon-search"
+            },
+            {
+              "link":" ",
+              "icons": "icon-heart-o"
+            },
+            {
+              "link":" ",
+              "icons": "icon-user-o"
+            },           
+           {
+              "link":" ",
+              "icons": "icon-cart"
+            }
+          ],
+          "supplyChain":[
+            {
+                "link":" ",
+                "product": "Almonds"
+            },
+            {
+                "link": " ",
+                "product": "Walnuts"
+            },
+            {
+                "link": " ",
+                "product": "Pistachios"
+            },
+            {
+                "link": " ",
+                "product": "Cashews"
+            },
+            {
+                "link": " ",
+                "product": "Sesame"
+            },
+            {
+                "link": " ",
+                "product": "Peanuts"
+            },
+            {
+                "link": " ",
+                "product":"Hazelnuts"
+            },
+            {
+                "link": " ",
+                "product": "Quinoa & Chia"
+            }
+        ],
+        "arrival" :[
+            {
+                "image" : "cg_1_1_",
+                "name"  :  "Cashews organic CG 50lbs",
+                "id"    : 20853
+            },
+            {
+                "image" : "npxs1_7",
+                "name"  : "Almonds Pst Kern NP ExSUP 20/22 1T bag",
+                "id"    : 9129
+            },
+            {
+                "image" : "npxs2_5",
+                "name"  : "Almonds Kern NP ExSUP 20/22 1T bag",
+                "id"    : 13767
+            },{
+                "image" : "crunchyalmondnat2",
+                "name"  : "Almonds Roast Natural Paste Crunchy 20L Bucket",
+                "id"    : 20651
+            }
+        ],
+        "market" :[
+            {              
+                "image" : "2969_2_",
+                "fruit" : "Peanuts",
+                "place" : "USA",
+                "update": "US peanut planting y20",
+                "date"  : "15th April",
+                "year"  : "2020"
+            },
+            {
+                "image": "17664",
+                "fruit" : "Peanuts",
+                "place" : "USA",
+                "update": "Cashew update 15 Apr 2020",
+                "date"  : "15th April",
+                "year"  : "2020"
+            },
+            {
+                "image" : "17252",
+                "fruit" : "Peanuts",
+                "place" : "USA",
+                "update": "Marketing call rehash 15 Apr 2020",
+                "date"  : "18th April",
+                "year"  : "2020"
+            }
+        ]
+
+    }
+
+
+    

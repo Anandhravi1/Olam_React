@@ -4,25 +4,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import $ from 'jquery';
+import data from '../data';
 
+
+const banner = data.banner;
 class Banner extends Component {
     state = { 
-        banner:[
-            {
-                link:'',
-                image:'banner_1'
-            },
-            {
-                link:'',
-                image:'banner_2'
-            },{
-                link:'',
-                image:'banner_3'
-            },{
-                link:'',
-                image:'banner_4'
-            }
-        ]
+       
      }
     componentDidMount=()=>{
         /**** our works loop */
@@ -56,7 +44,7 @@ class Banner extends Component {
         return (
             <div className=" banner-section">
             <Slider {...settings} >
-                {this.state.banner.map((item,index)=>
+                {banner.map((item,index)=>
                  <Link key={index} to={item.link}><div className="item"><img src={require(`../images/${item.image}.png`)} alt="" /></div></Link>
                 )}             
             </Slider>

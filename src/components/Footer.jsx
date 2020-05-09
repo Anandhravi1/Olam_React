@@ -2,27 +2,11 @@ import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faPhone} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
+import data from '../data';
 
-class Footer extends React.Component {
+class Footer extends React.Component {    
     render() {
-        const footerLink=[
-            {
-                link:' ',
-                text:'Locate Us'
-            },
-            {
-                link:'https://www.olammarkets.com.au/almonds/faq-new/',
-                text:'FAQ'
-            },
-            {
-                link:'https://www.olammarkets.com.au/almonds/technical-document/',
-                text:'Technical Documents'
-            },
-            {
-                link:'https://www.olammarkets.com.au/almonds/publications/',
-                text:'Publications'
-            }
-        ]
+        const footerLink= data.footerLink;
         return(
             <div className="footer-section ">
                 <div className="container  d-md-flex justify-content-between align-items-center">

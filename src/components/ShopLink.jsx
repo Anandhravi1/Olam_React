@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+
 class ShopLink extends Component {
-    state = { 
-        Nuts:["Cashews","Walnuts","Pistachios","Fancy Grade Almonds","Almond Ingredients"]
-     }
     render() { 
         return (
         <div>

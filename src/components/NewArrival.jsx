@@ -1,29 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import data from '../data';
 
 class NewArrival extends React.Component {
     render(){
-        const arrival=[
-            {
-                image : 'cg_1_1_',
-                name  : 'Cashews organic CG 50lbs',
-                id    : 20853
-            },
-            {
-                image : 'npxs1_7',
-                name  : 'Almonds Pst Kern NP ExSUP 20/22 1T bag',
-                id    : 9129
-            },
-            {
-                image : 'npxs2_5',
-                name  : 'Almonds Kern NP ExSUP 20/22 1T bag',
-                id    : 13767
-            },{
-                image : 'crunchyalmondnat2',
-                name  : 'Almonds Roast Natural Paste Crunchy 20L Bucket',
-                id    : 20651
-            }
-        ]
+        const arrival= data.arrival;
         return(
             <div className="section new-arrival">
                 <div className="container">

@@ -15,10 +15,7 @@ import Banner from './Banner';
 import HeaderIcon from './HeaderIcon';
 import $ from 'jquery';
 
-class Home extends React.Component{
-  state = { 
-    isOpen: false
- }
+class Home extends React.Component{ 
  componentDidMount=()=>{
      $('.hamburg-icon').click(function(){
        $('body').addClass('link-add')
@@ -29,11 +26,7 @@ class Home extends React.Component{
        
  
  }
- handleToggle=()=> {
-     this.setState({
-         isOpen: !this.state.isOpen
-     })
- }
+ 
   render() {  
     return(
       <div className="page home-page">

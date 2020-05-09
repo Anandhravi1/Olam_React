@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import {Link} from 'react-router-dom';
+import data from '../data';
 class WholeStoryRight extends Component {
-    state = {  }
+    
     componentDidMount=()=>{
         /**** our works loop */
         
@@ -22,32 +23,7 @@ class WholeStoryRight extends Component {
     bgSource(".whole-story .card-item");
       }
     render() { 
-        const market=[
-            {              
-                image : '2969_2_',
-                fruit : 'Peanuts',
-                place : 'USA',
-                update: 'US peanut planting y20',
-                date  : '15th April',
-                year  : '2020'
-            },
-            {
-                image: '17664',
-                fruit : 'Peanuts',
-                place : 'USA',
-                update: 'Cashew update 15 Apr 2020',
-                date  : '15th April',
-                year  : '2020'
-            },
-            {
-                image : '17252',
-                fruit : 'Peanuts',
-                place : 'USA',
-                update: 'Marketing call rehash 15 Apr 2020',
-                date  : '18th April',
-                year  : '2020'
-            }
-        ]
+        const  market= data.market;
         return ( 
             <div className="story-right-sec">
             {market.map((item,index)=>

@@ -6,46 +6,9 @@ import combo from '../images/combo_160_140.jpg';
 import $ from 'jquery';
 import { FaAngleDown } from 'react-icons/fa';
 import ShopLink from './ShopLink';
+import data from '../data';
 class NavLinks extends Component {    
-    state = { 
-        supplyChain:[
-            {
-                link:' ',
-                product:'Almonds'
-            },
-            {
-                link:' ',
-                product:'Walnuts'
-            },
-            {
-                link:' ',
-                product:'Pistachios'
-            },
-            {
-                link:' ',
-                product:'Cashews'
-            },
-            {
-                link:' ',
-                product:'Sesame'
-            },
-            {
-                link:' ',
-                product:'Peanuts'
-            },
-            {
-                link:' ',
-                product:'Hazelnuts'
-            },
-            {
-                link:' ',
-                product:'Quinoa & Chia'
-            }
-
-        ],
-        Nuts:["Cashews","Walnuts","Pistachios","Fancy Grade Almonds","Almond Ingredients"]
-       
-     }
+   
     componentDidMount=()=>{
         $('.navbar-section ul li a').click(function(){
             var _this=$(this);
@@ -54,6 +17,7 @@ class NavLinks extends Component {
         })
     }
     render() {   
+        const supplyChain = data.supplyChain;
         var NutItems= ["Cashews","Walnuts","Pistachios","Fancy Grade Almonds","Almond Ingredients"];              
         return (
             <div className="navbar-section">
@@ -68,7 +32,7 @@ class NavLinks extends Component {
                     <li><Link to="/">Our Supply Chain <FaAngleDown className="angle-down" /></Link>
                         <div className="supply-branch level-0">
                             <ul>
-                                {this.state.supplyChain.map((item,index)=>
+                                {supplyChain.map((item,index)=>
                                 <li key={index}><Link  to={item.link}>{item.product}</Link></li>
                                 )}                                
                             </ul>
