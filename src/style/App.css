@@ -84,6 +84,7 @@ h2 {
 }
 .product-status {
     text-align: right;
+    z-index: 1;
 }
 .product-status a {
     font-size: 20px;
@@ -99,6 +100,9 @@ h2 {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+}
+.navbar-section {
+    z-index: 1;
 }
 .navbar-section a{
     font-size: 20px;
@@ -177,6 +181,9 @@ h2 {
     .section.whole-story {
         margin: 80px 0;
     }
+    .header-section {
+        z-index: 2;
+    }
    
 }
 /** slick slider **/
@@ -200,6 +207,7 @@ h2 {
      color: #fff;
      display: none;
      font-size: 26px;
+     z-index: 1;
  }
  body {
      position: relative;
@@ -212,12 +220,16 @@ h2 {
         display: none;
     }
 
+    .logo-nav-section>a {
+        z-index: 1;
+    }
+
  @media only screen and (max-width: 991px) {
      .hamburg-icon {
          display: block;
          position: absolute;
          top: 50px;
-         z-index: 1;
+       
      }  
      body.link-add:before{
         position: absolute;
@@ -253,8 +265,7 @@ h2 {
     .product-status {
         position: absolute;
         top: 30px;
-        right: 30px;
-        z-index: 1;
+        right: 30px;        
     }
     .product-status a {       
         margin-right: 25px;
@@ -288,9 +299,7 @@ h2 {
         top: 35px;
         left: 80px;
     }
-    .logo-nav-section>a {
-        z-index: 1;
-    }
+  
     .navbar-section .level-0 {
         position: relative;
         background: #f4f3f1;
